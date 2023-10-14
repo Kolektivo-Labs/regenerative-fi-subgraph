@@ -762,3 +762,11 @@ base:
   TempLiquidityBootstrappingPoolFactory:
     address: "0x0c6052254551EAe3ECac77B01DFcf1025418828f"
     startBlock: 1206531
+localhost:
+  network: localhost
+  Vault:
+    address: "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+    startBlock: 0
+  WeightedPoolV4Factory:
+    address: "0x0165878A594ca255338adfa4d48449f69242Eb8F"
+    startBlock: 0

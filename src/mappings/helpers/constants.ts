@@ -45,11 +45,11 @@ let network: string = dataSource.network();
 // with a new entry for the new network - folowwing subgraph slugs
 let vaultAddressByNetwork: AddressByNetwork = {
   canonical: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
-  custom: '0x0000000000000000000000000000000000000000',
+  custom: '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9',
 };
 
 function forNetwork(addressByNetwork: AddressByNetwork, network: string): Address {
-  if (network == 'custom') {
+  if (network == 'localhost') {
     return Address.fromString(addressByNetwork.custom);
   } else {
     return Address.fromString(addressByNetwork.canonical);
