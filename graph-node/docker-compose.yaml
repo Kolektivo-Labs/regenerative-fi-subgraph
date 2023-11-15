@@ -19,7 +19,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: "ipfs:5001"
-      ethereum: "alfajores:https://alfajores-forno.celo-testnet.org"
+      ethereum: "alfajores:https://celo-alfajores-archive.allthatnode.com"
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:latest
