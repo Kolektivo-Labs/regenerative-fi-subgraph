@@ -770,3 +770,11 @@ localhost:
   WeightedPoolV4Factory:
     address: "0x0165878A594ca255338adfa4d48449f69242Eb8F"
     startBlock: 0
+localhost:
+  network: alfajores
+  Vault:
+    address: "0xf2D39dd1b3e991f23d8a61bABb1c13873640873F"
+    startBlock: 20894930
+  WeightedPoolV4Factory:
+    address: "0x997252b17F61fFc6Ca2fDDd7fa1Cb0cdb98f202D"
+    startBlock: 20894930
