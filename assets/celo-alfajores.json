@@ -1,8 +1,12 @@
 {
   "stableAssets": [
     {
-      "address": "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1",
+      "address": "0x4a4AC35B50DAf081C22856ebB26561F3a22598C6",
       "symbol": "cUSD"
+    },
+    {
+      "address": "0x4a4AC35B50DAf081C22856ebB26561F3a22598C6",
+      "symbol": "USDC"
     }
   ],
   "pricingAssets": [
