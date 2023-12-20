@@ -21,6 +21,5 @@ export const assets: Assets = {
   pricingAssets: [
     Address.fromString('0x524d97a67f50f4a062c28c74f60703aec9028a94'), // WCELO
   ],
-  fxAssetAggregators: [
-  ],
+  fxAssetAggregators: [],
 };
