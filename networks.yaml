@@ -762,3 +762,14 @@ base:
   TempLiquidityBootstrappingPoolFactory:
     address: "0x0c6052254551EAe3ECac77B01DFcf1025418828f"
     startBlock: 1206531
+celo-alfajores:
+  network: celo-alfajores
+  EventEmitter:
+    address: "0x6350243e9271f050c56f07ec2b0a2916f66a25f2"
+    startBlock: 21294172
+  Vault:
+    address: "0xf2D39dd1b3e991f23d8a61bABb1c13873640873F"
+    startBlock: 20896491
+  WeightedPoolV4Factory:
+    address: "0x997252b17F61fFc6Ca2fDDd7fa1Cb0cdb98f202D"
+    startBlock: 20896735

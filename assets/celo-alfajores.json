@@ -1,0 +1,18 @@
+{
+  "stableAssets": [
+    {
+      "address": "0x4a4AC35B50DAf081C22856ebB26561F3a22598C6",
+      "symbol": "cUSD"
+    },
+    {
+      "address": "0x4a4AC35B50DAf081C22856ebB26561F3a22598C6",
+      "symbol": "USDC"
+    }
+  ],
+  "pricingAssets": [
+    {
+      "address": "0x524d97a67f50f4a062c28c74f60703aec9028a94",
+      "symbol": "WCELO"
+    }
+  ]
+}
