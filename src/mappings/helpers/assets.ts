@@ -19,7 +19,9 @@ export const assets: Assets = {
     Address.fromString('0x4a4AC35B50DAf081C22856ebB26561F3a22598C6'), // USDC
   ],
   pricingAssets: [
-    Address.fromString('0x524d97a67f50f4a062c28c74f60703aec9028a94'), // WCELO
+    Address.fromString('0xeda66c3cA9612352Fccf9b87160E275550FcB918'), // WCELO
+    Address.fromString('0x5b096389111c6b3e4f1eda9968d450c7a81e1d43'), // cEURO
   ],
-  fxAssetAggregators: [],
+  fxAssetAggregators: [
+  ],
 };
