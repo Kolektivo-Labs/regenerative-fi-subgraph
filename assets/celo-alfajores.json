@@ -11,8 +11,12 @@
   ],
   "pricingAssets": [
     {
-      "address": "0x524d97a67f50f4a062c28c74f60703aec9028a94",
+      "address": "0xeda66c3cA9612352Fccf9b87160E275550FcB918",
       "symbol": "WCELO"
+    },
+    {
+      "address": "0x5b096389111c6b3e4f1eda9968d450c7a81e1d43",
+      "symbol": "cEURO"
     }
   ]
 }
