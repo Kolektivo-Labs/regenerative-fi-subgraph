@@ -11,11 +11,12 @@ class Assets {
 }
 
 export const cUSD_ADDRESS = Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a');
-export const USDC_ADDRESS = cUSD_ADDRESS;
+export const USDC_ADDRESS = Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a');
 
 export const assets: Assets = {
   stableAssets: [
     Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a'), // cUSD
+    Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a'), // USDC
   ],
   pricingAssets: [
     Address.fromString('0x471EcE3750Da237f93B8E339c536989b8978a438'), // CELO
