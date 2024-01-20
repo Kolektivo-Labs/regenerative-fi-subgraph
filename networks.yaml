@@ -773,3 +773,14 @@ celo-alfajores:
   WeightedPoolV4Factory:
     address: "0x997252b17F61fFc6Ca2fDDd7fa1Cb0cdb98f202D"
     startBlock: 20896735
+celo:
+  network: celo
+  EventEmitter:
+    address: "0x7a464da23d89b764a4b442406e17ac6715ad43a2"
+    startBlock: 23617694
+  Vault:
+    address: "0xaD314e606616702223d351184041C2a3DdB6D217"
+    startBlock: 23617523
+  WeightedPoolV4Factory:
+    address: "0xEB1055c017a1427726F01368C8247649c5A79bF9"
+    startBlock: 23617585
