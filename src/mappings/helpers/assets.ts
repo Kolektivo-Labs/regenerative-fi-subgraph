@@ -10,13 +10,13 @@ class Assets {
   public fxAssetAggregators: Address[][];
 }
 
-export const cUSD_ADDRESS = Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a');
-export const USDC_ADDRESS = Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a');
+export const cUSD_ADDRESS = Address.fromString('0x765DE816845861e75A25fCA122bb6898B8B1282a');
+export const USDC_ADDRESS = Address.fromString('0x765DE816845861e75A25fCA122bb6898B8B1282a');
 
 export const assets: Assets = {
   stableAssets: [
-    Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a'), // cUSD
-    Address.fromString('0x765de816845861e75a25fca122bb6898b8b1282a'), // USDC
+    Address.fromString('0x765DE816845861e75A25fCA122bb6898B8B1282a'), // cUSD
+    Address.fromString('0x765DE816845861e75A25fCA122bb6898B8B1282a'), // USDC
   ],
   pricingAssets: [
     Address.fromString('0x471EcE3750Da237f93B8E339c536989b8978a438'), // CELO
