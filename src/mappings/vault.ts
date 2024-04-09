@@ -669,12 +669,7 @@ export function handleSwapEvent(event: SwapEvent): void {
   let blockNumber = event.block.number;
   let tokenInWeight = poolTokenIn.weight;
   let tokenOutWeight = poolTokenOut.weight;
-  if (
-    !isJoinExitSwap &&
-    isPricingAsset(tokenInAddress) &&
-    pool.totalLiquidity.gt(MIN_POOL_LIQUIDITY) &&
-    valueUSD.gt(MIN_SWAP_VALUE_USD)
-  ) {
+  if (!isJoinExitSwap && isPricingAsset(tokenInAddress)) {
     let tokenPriceId = getTokenPriceId(poolId.toHex(), tokenOutAddress, tokenInAddress, blockNumber);
     let tokenPrice = new TokenPrice(tokenPriceId);
     //tokenPrice.poolTokenId = getPoolTokenId(poolId, tokenOutAddress);
@@ -698,12 +693,7 @@ export function handleSwapEvent(event: SwapEvent): void {
 
     updateLatestPrice(tokenPrice, event.block.timestamp);
   }
-  if (
-    !isJoinExitSwap &&
-    isPricingAsset(tokenOutAddress) &&
-    pool.totalLiquidity.gt(MIN_POOL_LIQUIDITY) &&
-    valueUSD.gt(MIN_SWAP_VALUE_USD)
-  ) {
+  if (!isJoinExitSwap && isPricingAsset(tokenOutAddress)) {
     let tokenPriceId = getTokenPriceId(poolId.toHex(), tokenInAddress, tokenOutAddress, blockNumber);
     let tokenPrice = new TokenPrice(tokenPriceId);
     //tokenPrice.poolTokenId = getPoolTokenId(poolId, tokenInAddress);
