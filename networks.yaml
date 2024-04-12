@@ -784,3 +784,6 @@ celo:
   WeightedPoolV4Factory:
     address: "0xEB1055c017a1427726F01368C8247649c5A79bF9"
     startBlock: 23617585
+  ComposableStablePoolV5Factory:
+    address: "0xA66501F277e27fEB17f653174954590e319404c4"
+    startBlock: 24979840

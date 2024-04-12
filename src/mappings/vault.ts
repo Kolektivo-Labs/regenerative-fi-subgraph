@@ -46,8 +46,8 @@ import {
   setWrappedTokenPrice,
 } from './pricing';
 import {
-  MIN_POOL_LIQUIDITY,
-  MIN_SWAP_VALUE_USD,
+  // MIN_POOL_LIQUIDITY,
+  // MIN_SWAP_VALUE_USD,
   SWAP_IN,
   SWAP_OUT,
   VAULT_ADDRESS,
